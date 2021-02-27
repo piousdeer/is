@@ -2,8 +2,12 @@
   "name": "@piousdeer/is",
   "version": "1.0.0",
   "description": "Type assertion helper with TypeScript support",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/piousdeer/is.git"
@@ -18,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/piousdeer/is/issues"
   },
-  "homepage": "https://github.com/piousdeer/is#readme"
+  "homepage": "https://github.com/piousdeer/is#readme",
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
 }
