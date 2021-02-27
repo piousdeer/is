@@ -1,6 +1,6 @@
 {
   "name": "@piousdeer/is",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type assertion helper with TypeScript support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
